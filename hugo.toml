@@ -1,0 +1,39 @@
+baseURL = "https://social323.github.io/"
+languageCode = "en-us"
+title = "Vmmem"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "social323"
+  description = "Binary Reverse Engineering & Exploit Research"
+  defaultTheme = "dark"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  homeInfoParams = {Title = "Vmmem", Content = "Binary Reverse Engineering & Exploit Research"}
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/social323"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = true
+    lineNumbersInTable = true
